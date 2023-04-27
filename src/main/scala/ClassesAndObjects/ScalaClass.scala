@@ -1,5 +1,6 @@
 package ClassesAndObjects
 
+import scala.io.Source
 import scala.io.StdIn.readLine
 
 class ScalaClass {
@@ -10,10 +11,12 @@ class ScalaClass {
 
             //Ages
      println(s"What is your age $name1 ?")
+    var age1 = readLine()
 
-             var age1 = readLine()
-             var age2 = 21
-             var age3 = 23
+    println(s"What is your age $name2 ?")
+    var age2 = readLine()
+
+    var age3 = 23
 
          def show(): Unit = {
              println(s"Hello My name is $name1 and My age is $age1")
