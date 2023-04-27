@@ -1,14 +1,17 @@
 package ClassesAndObjects
 
- class ScalaClass {
+import scala.io.StdIn.readLine
+
+class ScalaClass {
             //Names
              val name1 = "Abhishek Chandel"
              val name2 = "Anchal Bhatt"
              val name3 = "Akash"
 
             //Ages
+     println(s"What is your age $name1 ?")
 
-             var age1 = 22
+             var age1 = readLine()
              var age2 = 21
              var age3 = 23
 
