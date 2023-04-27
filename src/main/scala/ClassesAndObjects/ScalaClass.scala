@@ -1,5 +1,6 @@
 package ClassesAndObjects
 
+import java.util.jar.Attributes.Name
 import scala.io.Source
 import scala.io.StdIn.readLine
 
@@ -25,9 +26,28 @@ class ScalaClass {
          }
 
     }
- object Main{
-    def main(args:Array[String]): Unit = {
-        var ob =new ScalaClass()
-        ob.show()
+class Demo2(id: Int ,name: String) {
+  def str() {
+    println {
+
+      if (name == "Abhishek") {
+        ("Abhishek is good person")
+      } else {
+        ("Abhishek is not a good person")
+
+      }
+
     }
-}
+
+  }}
+
+
+  object Main {
+    def main(args: Array[String]): Unit = {
+      var ob = new ScalaClass()
+      ob.show()
+      var ob1 = new Demo2(10, "Abhishe")
+      ob1.str()
+    }
+  }
+
