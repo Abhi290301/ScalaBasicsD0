@@ -1,0 +1,6 @@
+package ClassesAndObjects
+
+class Traits {
+
+
+}
