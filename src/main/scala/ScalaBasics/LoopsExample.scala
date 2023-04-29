@@ -15,6 +15,7 @@ object ForLoop{
   }
 }
 
+
 //While loop
 object While{
   def main(args:Array[String]): Unit = {
