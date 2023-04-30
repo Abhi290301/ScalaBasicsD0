@@ -1,7 +1,6 @@
 package Collections
 
 import scala.collection.immutable.HashSet
-
 object HashSet1 {
 
   def main (args: Array[String]): Unit =
