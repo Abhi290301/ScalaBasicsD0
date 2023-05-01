@@ -18,3 +18,4 @@ object ParallelizeEx {
     rdd3.foreach(x => print(x + ","))
   }
 }
+
