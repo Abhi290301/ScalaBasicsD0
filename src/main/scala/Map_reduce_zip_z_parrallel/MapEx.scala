@@ -1,4 +1,4 @@
-package Collections
+package Map_reduce_zip_z_parrallel
 
 object MapEx {
   def main(args: Array[String]): Unit = {
