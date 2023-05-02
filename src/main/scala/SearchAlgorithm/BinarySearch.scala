@@ -33,8 +33,9 @@ object BinarySearch {
 
     // Calling the binary search function and
     // storing its result in index variable
+
     var index = RecursiveBinarySearch(Array(1, 2, 3, 4, 55,
-      65, 75,100,112), 112)(0, 8)
+      65, 75,100,112), 22)(0, 9)
 
     // If value not found
     if (index == -1)

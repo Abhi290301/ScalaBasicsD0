@@ -6,6 +6,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "3.3.2",
   "org.apache.spark" %% "spark-sql" % "3.3.2"
 )
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.15" % Test
 
 libraryDependencies += "org.typelevel" %% "cats-core" % "2.9.0"
 javaHome := Some(file("C:\\Program Files\\Java\\jdk-11"))
