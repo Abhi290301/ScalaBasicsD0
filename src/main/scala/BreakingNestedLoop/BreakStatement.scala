@@ -1,6 +1,6 @@
 package BreakingNestedLoop
 
-import scala.util.control.Breaks.{break, breakable}
+import scala.util.control.Breaks._
 
 object BreakStatement {
   def main(args: Array[String]): Unit = {

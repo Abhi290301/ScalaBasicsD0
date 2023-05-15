@@ -28,8 +28,6 @@ object Main3{
       callCase(CaseClassExample1(10,10))
       callCase(CaseClassExample2(20,30))
       callCase(CaseObject)
-
-
     }
 
 }

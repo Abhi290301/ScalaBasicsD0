@@ -16,7 +16,6 @@ case class Example1(title: String, rating: Double)
 //Other Example
 case class Movie(title: String, rating: Double)
 class AdFilm(title: String, lengthInSeconds: Int)
-
 object Main2 {
   def main(args: Array[String]) {
     val fordVsFerrari: Movie = Movie("Ford vs Ferrari", 7.4)

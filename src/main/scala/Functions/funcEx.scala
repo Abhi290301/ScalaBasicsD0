@@ -2,28 +2,28 @@ package Functions
 
 object funcEx {
   //  Scala Function Example without using = Operator
-  def main(args: Array[String]): Unit = {
-    functionExample() // Calling function
-  }
-
   def functionExample() { // Defining a function
     println("This is a simple function")
+  }
+  def main(args: Array[String]): Unit = {
+    functionExample() // Calling function
   }
 }
 
 
   //Scala Function Example with = Operator
 object Second {
-    def main(args: Array[String]) {
-      var result = functionExample() // Calling function
-      println(result)
-    }
-
     def functionExample() = { // Defining a function
       var a = 10
       a
 
     }
+    def main(args: Array[String]) {
+      var result = functionExample() // Calling function
+      println(result)
+    }
+
+
   }
 
 //Scala Parameterized Function Example

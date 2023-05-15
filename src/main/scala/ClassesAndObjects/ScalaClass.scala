@@ -1,7 +1,4 @@
 package ClassesAndObjects
-
-import java.util.jar.Attributes.Name
-import scala.io.Source
 import scala.io.StdIn.readLine
 
 class ScalaClass {
@@ -16,7 +13,6 @@ class ScalaClass {
 
     println(s"What is your age $name2 ?")
     var age2 = readLine()
-
     var age3 = 23
 
          def show(): Unit = {
@@ -46,8 +42,21 @@ class Demo2(id: Int ,name: String) {
     def main(args: Array[String]): Unit = {
       var ob = new ScalaClass()
       ob.show()
-      var ob1 = new Demo2(10, "Abhishe")
+      var ob1 = new Demo2(10, "Abhishek")
       ob1.str()
     }
   }
 
+
+//Scala Class example
+class Student(id:Int, name:String){     // Primary constructor
+  def show(){
+    println(id+" "+name)
+  }
+}
+object MainObject{
+  def main(args:Array[String]){
+    var s = new Student(1902031001,"Abhishek Chandel")   // Passing values to constructor
+    s.show()                // Calling a function by using an object
+  }
+}
